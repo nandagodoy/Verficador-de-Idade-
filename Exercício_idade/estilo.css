@@ -1,0 +1,54 @@
+body {
+  background: rgb(38, 37, 40);
+  font: 15px Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Sansita Swashed', cursive;
+}
+
+header {
+  color: cyan;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.173);
+  color: black;
+}
+
+div {
+  text-align: center;
+  padding: 8px;
+}
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.button {
+  padding: 12px 24px;
+  margin-top: 16px;
+  transition-duration: 0.4s;
+  background-color: orangered;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 0;
+}
+
+.button:hover {
+  background-color: #7d4caf; /* Green */
+  color: white;
+}
+
+#img {
+  width: 200px;
+  height: 200px;
+}
